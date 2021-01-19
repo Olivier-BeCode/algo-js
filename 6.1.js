@@ -13,8 +13,9 @@ class Circle {
         }
     }
    
-    let obj1 = new Circle(4,6,6);
+    let obj1 = new Circle(3,2,5);
     console.log(obj1);
-    console.log("The surface of the circle is " + obj1.surface);
-    obj1.move(2, 2);
+    obj1.surface;
+    console.log(obj1.surface);
+    obj1.move(2, 3);
     console.log(obj1);

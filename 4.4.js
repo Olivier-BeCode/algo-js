@@ -28,7 +28,7 @@ let minB = 1;
 let maxB = 10;
 let arrB = [];
 let i = 1;
-let n = readlineSync.question("What is the length of your desired array ? ");
+let n = readlineSync.question("What is the length of your desired array? ");
 
 function rand10(minB, maxB) { 
     return Math.floor(Math.random() * (maxB - minB + 1) + minB);
